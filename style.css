@@ -33,7 +33,7 @@ h1, h2 {
     margin: 10px 0;
 }
 
-.name p {
+.name {
     font-size: clamp(26px, 4vw, 36px);
     font-weight: 400;
 }

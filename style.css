@@ -1,0 +1,112 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    background-image: url('./assest/hero.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    color: #fff;
+}
+
+.content {
+    max-width: 90%;
+}
+
+h1, h2 {
+    font-size: clamp(30px, 5vw, 72px);
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.name p {
+    font-size: clamp(26px, 4vw, 36px);
+    font-weight: 400;
+}
+.work{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work p {
+    font-size: clamp(72px, 4vw, 36px);
+}
+.work .you{
+    font-size: clamp(144px, 4vw, 36px);
+}
+.cards{
+    margin: 40px;
+    height: 100%;
+}
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+ .web , .app, .ui {
+    margin: 10px;
+    text-align: center;
+   flex: 1 1 300px;
+   max-width: 400px;
+    text-align: center;
+} 
+.contact{
+    display: flex;
+    height: 100%;
+    margin: 40px 0 0 0;
+    flex-wrap: wrap;    
+    justify-content: center;
+    /* gap: 20px; */
+    color: #fff;
+}
+.contact-me {
+    background-color: #515603;
+    padding: 50px;
+}
+
+.about-me {
+    background-color: #722300;
+    padding: 50px;
+}
+.contact-me , .about-me{
+   flex: 1 1 500px;
+}
+.contact h3{
+    font-size: 64px;
+    /* line-height: 1.2rem; */
+    
+}
+.pass{
+    margin-top: 10px;
+}
+.pass a{
+    text-decoration: none;
+    color: #fff;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
